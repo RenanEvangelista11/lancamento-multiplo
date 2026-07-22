@@ -2,6 +2,23 @@
   "buildCommand": "pnpm build",
   "outputDirectory": "dist/public",
   "framework": null,
+  "redirects": [
+    {
+      "source": "/contato-cs",
+      "destination": "https://wa.me/5519991957717?text=Ol%C3%A1%20Ariane%2C%20preciso%20de%20ajuda%2C%20consegue%20me%20atender%20agora%3F",
+      "permanent": false
+    },
+    {
+      "source": "/contato-financeiro",
+      "destination": "https://wa.me/5511961967623?text=Ol%C3%A1%20Marianna%2C%20preciso%20de%20ajuda%2C%20consegue%20me%20atender%20agora%3F",
+      "permanent": false
+    },
+    {
+      "source": "/contato-lia",
+      "destination": "https://wa.me/553184736927?text=Ol%C3%A1%20Gustavo%2C%20fa%C3%A7o%20parte%20da%20mentoria%20do%20Luiz%20Filho.%20Preciso%20tirar%20algumas%20d%C3%BAvidas%20sobre%20a%20Lia%2C%20consegue%20me%20ajudar%3F",
+      "permanent": false
+    }
+  ],
   "rewrites": [
     { "source": "/((?!api/).*)", "destination": "/index.html" }
   ]
