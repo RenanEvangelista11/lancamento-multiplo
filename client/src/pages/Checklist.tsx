@@ -425,10 +425,13 @@ export default function Checklist() {
                 </div>
                 <span className="text-base font-bold text-muted-foreground uppercase tracking-wider">Antes</span>
               </div>
-              <div
-                className="w-full aspect-video rounded-lg bg-muted/20 border border-border mb-5 flex items-center justify-center"
-              >
-                <p className="text-xs text-muted-foreground">Imagem: operação travada</p>
+              <div className="w-full rounded-lg overflow-hidden mb-5">
+                <img
+                  src="/images/checklist-antes.webp"
+                  alt="Sem método — operação travada"
+                  className="w-full h-auto object-cover"
+                  decoding="async"
+                />
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
                 Expert precisando estar ao vivo em cada rodada. Equipe remontando o funil do zero. Agenda do especialista como gargalo principal da operação.
