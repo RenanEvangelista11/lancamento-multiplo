@@ -449,8 +449,13 @@ export default function Checklist() {
                 </div>
                 <span className="text-base font-bold text-accent uppercase tracking-wider">Depois</span>
               </div>
-              <div className="w-full aspect-video rounded-lg bg-accent/5 border border-accent/20 mb-5 flex items-center justify-center">
-                <p className="text-xs text-accent/60">Imagem: lançamento rodando sozinho</p>
+              <div className="w-full rounded-lg overflow-hidden mb-5">
+                <img
+                  src="/images/checklist-depois.webp"
+                  alt="Com método — lançamento rodando sozinho"
+                  className="w-full h-auto object-cover"
+                  decoding="async"
+                />
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
                 CPL gravado, tráfego ligado, automação conduzindo o lead até o carrinho. O lançamento roda sozinho — sem o expert disponível a cada rodada.
