@@ -313,43 +313,17 @@ export default function Checklist() {
           }}
         />
 
-        <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
+        <div className="relative z-10 max-w-2xl mx-auto px-6 text-center">
           {/* Kicker */}
           <div className="inline-flex items-center gap-2 border border-accent/40 bg-accent/10 rounded-full px-4 py-1.5 mb-8">
             <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
             <span className="text-xs font-bold text-accent uppercase tracking-[0.25em]">
-              Checklist · Lançamento Secreto
+              Checklist Gratuito · Lançamento Secreto
             </span>
           </div>
 
-          {/* Headline */}
-          <h1
-            className="text-3xl md:text-5xl lg:text-6xl font-bold text-foreground leading-[1.08] mb-6"
-            style={{ fontFamily: "var(--font-display)" }}
-          >
-            Copie a estrutura de lançamento gravado que vende para público frio no automático, sem depender da agenda do expert.{" "}
-            <em className="text-accent not-italic">Em uma tarde.</em>
-          </h1>
-
-          {/* Sub */}
-          <p className="text-base md:text-xl text-muted-foreground leading-relaxed mb-8 max-w-2xl mx-auto">
-            Um checklist de execução com <strong className="text-foreground">257 itens em 7 fases</strong>, do primeiro anúncio ao fechamento do carrinho, testado em mais de 300 lançamentos por Luiz Filho, fundador da Zion e criador do Lançamento Múltiplo.
-          </p>
-
-          {/* Tags */}
-          <div className="flex flex-wrap justify-center gap-3 mb-12">
-            {["257 itens", "7 fases", "Método validado em 300+ lançamentos", "Independente da agenda do expert"].map((tag) => (
-              <span
-                key={tag}
-                className="text-xs font-semibold text-foreground bg-card border border-border rounded-full px-4 py-1.5"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-
           {/* Mockup */}
-          <div className="mx-auto w-full max-w-lg">
+          <div className="mx-auto w-full max-w-xs mb-8">
             <img
               src="/images/checklist-mockup.webp"
               alt="Checklist do Lançamento Secreto — mockup"
@@ -357,6 +331,32 @@ export default function Checklist() {
               fetchPriority="high"
               decoding="async"
             />
+          </div>
+
+          {/* Headline */}
+          <h1
+            className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground leading-[1.1] mb-5"
+            style={{ fontFamily: "var(--font-display)" }}
+          >
+            Copie e cole a estrutura de lançamento gravado que vende para público frio no automático,{" "}
+            <em className="text-accent not-italic">sem depender do expert.</em>
+          </h1>
+
+          {/* Sub */}
+          <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-8">
+            Método validado em mais de 300 lançamentos para você executar cada fase com previsibilidade, do início da captação ao fechamento do carrinho.
+          </p>
+
+          {/* Tags */}
+          <div className="flex flex-wrap justify-center gap-3">
+            {["257 itens", "7 fases", "300+ lançamentos", "Sem depender do expert"].map((tag) => (
+              <span
+                key={tag}
+                className="text-xs font-semibold text-foreground bg-card border border-border rounded-full px-4 py-1.5"
+              >
+                {tag}
+              </span>
+            ))}
           </div>
         </div>
       </section>
