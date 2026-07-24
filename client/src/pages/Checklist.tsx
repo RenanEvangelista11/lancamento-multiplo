@@ -348,17 +348,15 @@ export default function Checklist() {
             ))}
           </div>
 
-          {/* Mockup placeholder */}
-          <div
-            className="mx-auto w-full max-w-2xl aspect-video rounded-xl border border-border bg-card flex items-center justify-center"
-            style={{ boxShadow: "0 0 80px -20px rgba(255,68,68,0.2)" }}
-          >
-            <div className="text-center">
-              <div className="w-16 h-16 rounded-xl bg-accent/10 border border-accent/30 flex items-center justify-center mx-auto mb-3">
-                <span className="text-accent text-2xl font-bold">✓</span>
-              </div>
-              <p className="text-muted-foreground text-sm">Mockup do checklist</p>
-            </div>
+          {/* Mockup */}
+          <div className="mx-auto w-full max-w-lg">
+            <img
+              src="/images/checklist-mockup.webp"
+              alt="Checklist do Lançamento Secreto — mockup"
+              className="w-full h-auto drop-shadow-2xl"
+              fetchPriority="high"
+              decoding="async"
+            />
           </div>
         </div>
       </section>
@@ -550,8 +548,13 @@ export default function Checklist() {
             ))}
           </div>
 
-          <div className="mt-10 mx-auto w-full max-w-lg aspect-video rounded-xl border border-border bg-background flex items-center justify-center">
-            <p className="text-sm text-muted-foreground">Mockup do checklist aberto</p>
+          <div className="mt-10 mx-auto w-full max-w-md">
+            <img
+              src="/images/checklist-mockup.webp"
+              alt="Checklist do Lançamento Secreto"
+              className="w-full h-auto drop-shadow-xl"
+              decoding="async"
+            />
           </div>
         </div>
       </section>
