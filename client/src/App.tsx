@@ -10,6 +10,7 @@ const Home = lazy(() => import("./pages/Home"));
 const HomeV2 = lazy(() => import("./pages/HomeV2"));
 const HomeV3 = lazy(() => import("./pages/HomeV3"));
 const HomeV4 = lazy(() => import("./pages/HomeV4"));
+const Checklist = lazy(() => import("./pages/Checklist"));
 const ThankYou = lazy(() => import("./pages/ThankYou"));
 const HeadlinesPreview = lazy(() => import("./pages/HeadlinesPreview"));
 const NotFound = lazy(() => import("./pages/NotFound"));
@@ -24,6 +25,7 @@ function Router() {
         <Route path={"/v2"} component={HomeV2} />
         <Route path={"/v3"} component={HomeV3} />
         <Route path={"/v4"} component={HomeV4} />
+        <Route path={"/checklist"} component={Checklist} />
         <Route path={"/obrigado"} component={ThankYou} />
         <Route path={"/headlines-preview"} component={HeadlinesPreview} />
         <Route path={"/404"} component={NotFound} />
