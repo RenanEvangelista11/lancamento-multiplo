@@ -189,7 +189,7 @@ const faqs = [
 function CTAButton({ label = "BAIXAR O CHECKLIST AGORA" }: { label?: string }) {
   return (
     <a
-      href="#"
+      href="https://pay.onprofit.com.br/p9dF8nYr?off=3FEUra"
       className="inline-flex items-center justify-center gap-2 bg-accent hover:bg-accent/90 text-white font-bold text-base md:text-lg px-8 py-4 rounded-lg transition-colors"
       style={{
         boxShadow: "0 0 30px rgba(255,68,68,0.5), 0 0 60px rgba(255,68,68,0.25)",
