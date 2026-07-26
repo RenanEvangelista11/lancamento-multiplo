@@ -396,7 +396,7 @@ export default function Checklist() {
               </span>
               <span style={{ color: Z.muted, fontFamily: fontBody, fontWeight: 700, fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase" as const }}>Antes</span>
             </div>
-            {/* Imagem antes — aguardando */}
+            <img src="/images/checklist-antes.webp" alt="Sem método" style={{ width: "100%", borderRadius: 8, marginBottom: 16 }} />
             <p style={{ color: Z.muted, fontFamily: fontBody, fontSize: 14, lineHeight: 1.7 }}>
               Expert precisando estar ao vivo em cada rodada. Equipe remontando o funil do zero. Agenda do especialista como gargalo principal da operação.
             </p>
@@ -410,7 +410,7 @@ export default function Checklist() {
               </span>
               <span style={{ color: Z.green, fontFamily: fontBody, fontWeight: 700, fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase" as const }}>Depois</span>
             </div>
-            {/* Imagem depois — aguardando */}
+            <img src="/images/checklist-depois.webp" alt="Com método" style={{ width: "100%", borderRadius: 8, marginBottom: 16 }} />
             <p style={{ color: Z.muted, fontFamily: fontBody, fontSize: 14, lineHeight: 1.7 }}>
               CPL gravado, tráfego ligado, automação conduzindo o lead até o carrinho. O lançamento roda sozinho — sem o expert disponível a cada rodada.
             </p>
