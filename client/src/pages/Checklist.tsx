@@ -325,16 +325,7 @@ export default function Checklist() {
             </span>
           </div>
 
-          {/* Mockup */}
-          <div style={{ margin: "0 auto 40px", maxWidth: 300 }}>
-            <img
-              src="/images/checklist-mockup.webp"
-              alt="Checklist do Lançamento Secreto"
-              style={{ width: "100%", height: "auto", filter: "drop-shadow(0 24px 48px rgba(0,0,0,0.7))" }}
-              fetchPriority="high"
-              decoding="async"
-            />
-          </div>
+          {/* Mockup — aguardando imagem */}
 
           {/* Headline */}
           <h1 style={{ fontFamily: fontTitle, fontWeight: 700, fontSize: "clamp(28px, 5vw, 46px)", lineHeight: 1.1, color: Z.white, marginBottom: 20 }}>
@@ -396,9 +387,7 @@ export default function Checklist() {
               </span>
               <span style={{ color: Z.muted, fontFamily: fontBody, fontWeight: 700, fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase" as const }}>Antes</span>
             </div>
-            <div style={{ borderRadius: 10, overflow: "hidden", marginBottom: 16 }}>
-              <img src="/images/checklist-antes.webp" alt="Sem método — operação travada" style={{ width: "100%", height: "auto", display: "block" }} decoding="async" />
-            </div>
+            {/* Imagem antes — aguardando */}
             <p style={{ color: Z.muted, fontFamily: fontBody, fontSize: 14, lineHeight: 1.7 }}>
               Expert precisando estar ao vivo em cada rodada. Equipe remontando o funil do zero. Agenda do especialista como gargalo principal da operação.
             </p>
@@ -412,9 +401,7 @@ export default function Checklist() {
               </span>
               <span style={{ color: Z.green, fontFamily: fontBody, fontWeight: 700, fontSize: 11, letterSpacing: "0.2em", textTransform: "uppercase" as const }}>Depois</span>
             </div>
-            <div style={{ borderRadius: 10, overflow: "hidden", marginBottom: 16 }}>
-              <img src="/images/checklist-depois.webp" alt="Com método — lançamento rodando sozinho" style={{ width: "100%", height: "auto", display: "block" }} decoding="async" />
-            </div>
+            {/* Imagem depois — aguardando */}
             <p style={{ color: Z.muted, fontFamily: fontBody, fontSize: 14, lineHeight: 1.7 }}>
               CPL gravado, tráfego ligado, automação conduzindo o lead até o carrinho. O lançamento roda sozinho — sem o expert disponível a cada rodada.
             </p>
@@ -481,9 +468,7 @@ export default function Checklist() {
           ))}
         </div>
 
-        <div style={{ maxWidth: 360, margin: "0 auto" }}>
-          <img src="/images/checklist-mockup.webp" alt="Checklist do Lançamento Secreto" style={{ width: "100%", height: "auto", filter: "drop-shadow(0 16px 40px rgba(0,0,0,0.6))" }} decoding="async" />
-        </div>
+        {/* Mockup dobra 5 — aguardando */}
       </>, Z.bgDeep)}
 
       <Divider />
@@ -712,9 +697,7 @@ export default function Checklist() {
           </p>
         </>, 560)}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: 32, maxWidth: 900, margin: "0 auto", alignItems: "start" }}>
-          <div style={{ borderRadius: 16, overflow: "hidden", border: `1px solid ${Z.border}` }}>
-            <img src="/images/luiz-filho_34458625.webp" alt="Luiz Filho" style={{ width: "100%", height: "auto", display: "block" }} />
-          </div>
+          {/* Foto Luiz Filho — aguardando */}
           <ul style={{ display: "flex", flexDirection: "column" as const, gap: 16 }}>
             {[
               "Criador do Lançamento Múltiplo e fundador da Zion, uma das maiores agências de lançamentos digitais do Brasil",
