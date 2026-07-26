@@ -325,7 +325,16 @@ export default function Checklist() {
             </span>
           </div>
 
-          {/* Mockup — aguardando imagem */}
+          {/* Mockup */}
+          <div style={{ margin: "0 auto 40px", maxWidth: 300 }}>
+            <img
+              src="/images/checklist-mockup.webp"
+              alt="Checklist do Lançamento Secreto"
+              style={{ width: "100%", height: "auto", filter: "drop-shadow(0 24px 48px rgba(0,0,0,0.7))" }}
+              fetchPriority="high"
+              decoding="async"
+            />
+          </div>
 
           {/* Headline */}
           <h1 style={{ fontFamily: fontTitle, fontWeight: 700, fontSize: "clamp(28px, 5vw, 46px)", lineHeight: 1.1, color: Z.white, marginBottom: 20 }}>
@@ -468,7 +477,9 @@ export default function Checklist() {
           ))}
         </div>
 
-        {/* Mockup dobra 5 — aguardando */}
+        <div style={{ maxWidth: 320, margin: "0 auto" }}>
+          <img src="/images/checklist-mockup.webp" alt="Checklist do Lançamento Secreto" style={{ width: "100%", height: "auto", filter: "drop-shadow(0 16px 40px rgba(0,0,0,0.6))" }} decoding="async" />
+        </div>
       </>, Z.bgDeep)}
 
       <Divider />
