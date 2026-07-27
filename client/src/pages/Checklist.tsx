@@ -348,11 +348,9 @@ export default function Checklist() {
           </p>
 
           {/* Tags */}
-          <div style={{ display: "flex", flexWrap: "wrap" as const, gap: 8, justifyContent: "center", marginBottom: 40 }}>
+          <div style={{ display: "flex", flexWrap: "wrap" as const, gap: 8, justifyContent: "center" }}>
             {["257 itens", "7 fases", "300+ lançamentos", "Sem depender do expert"].map(tag => <Tag key={tag}>{tag}</Tag>)}
           </div>
-
-          <CTAButton />
         </div>
       </section>
 
