@@ -17,6 +17,11 @@
       "source": "/contato-lia",
       "destination": "https://wa.me/553184736927?text=Ol%C3%A1%20Gustavo%2C%20fa%C3%A7o%20parte%20da%20mentoria%20do%20Luiz%20Filho.%20Preciso%20tirar%20algumas%20d%C3%BAvidas%20sobre%20a%20Lia%2C%20consegue%20me%20ajudar%3F",
       "permanent": false
+    },
+    {
+      "source": "/evento-casa",
+      "destination": "https://viewer.fusionchat.pro/imersao-casa-fechada?utm_source=evento-05-08",
+      "permanent": false
     }
   ],
   "rewrites": [
