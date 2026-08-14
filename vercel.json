@@ -22,6 +22,11 @@
       "source": "/evento-casa",
       "destination": "https://viewer.fusionchat.pro/imersao-casa-fechada?utm_source=evento-05-08",
       "permanent": false
+    },
+    {
+      "source": "/fotos-imersao-agosto",
+      "destination": "https://fotop.com/fotos/eventos/index/evento/319718",
+      "permanent": false
     }
   ],
   "rewrites": [
